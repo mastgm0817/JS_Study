@@ -37,3 +37,14 @@ function printSquare(x){
 };
 
 printSquare(5)
+
+
+function introduce(name, birth, nationality, job) {
+  console.log('안녕하세요.')
+  console.log('제 이름은' + name + '입니다.')
+  console.log('제 생일은' + birth+ '입니다.')
+  console.log('저는 ' +  nationality + '사람입니다.')
+  console.log('저의 직업은' + job + '입니다.')
+};
+
+introduce("고병연", "2월11일", "한국", "개발자")
